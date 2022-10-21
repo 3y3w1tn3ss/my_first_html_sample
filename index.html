@@ -120,12 +120,20 @@
         <h2>Checkout this awesome bike jump:</h2>
         <iframe width="400" height="250" src="https://www.youtube.com/embed/yf11jjMicW0" name="iframe_a" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h2>Enter your name and surname:</h2>
-        <form>
+        <form autocomplete="on">
             <label for="fname">First Name</label><br>
             <input type="text" name="fname" id="fname"><br>
             <label for="lname">Last Name</label><br>
             <input type="text" name="lname" id="lname"><br><br>
-            <input type="submit" value="Submit">
+            <select name="genders" id="genders">
+                <option value="default">Choose your f*cking gender</option>
+                <option value="man">Man</option>
+                <option value="woman">Woman</option>
+                <option value="traveli">Traveli</option>
+                <option value="poustara">Poustara</option>
+                <option value="lesbian">Lesbian</option>
+            </select><br><br>
+            <button type="button" onclick="alert('Saved')">Submit</button>
         </form>
         <hr id="bottom"> <!-- Bottom ruler -->
     </body>
