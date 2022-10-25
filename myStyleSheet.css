@@ -1,5 +1,14 @@
 body {
     background-color: rgb(194, 139, 44);
+    text-align: center;
+    list-style-position: inside;
+    width: fit-content;
+    margin: auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hr {
