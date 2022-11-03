@@ -12,17 +12,23 @@ table {
 }
 
 hr {
-    height: 2px;;
+    padding: 2px;
     border-radius: 7px;
-    border-width: 3px;
+    border-width: 4px;
     color: yellow;
-    background-color: red;
+    background-color: #ff0000;
+}
+
+h1 {
+    text-decoration: underline;
+    text-shadow: 0px 0px 5px yellow;
 }
 
 h2 {
-    border: 4px double greenyellow;
-    border-radius: 5px;
-    padding: 5px;
+    border: 7px double greenyellow;
+    border-radius: 10px;
+    padding: 20px;
+    text-shadow: 1px 1px greenyellow;
 }
 
 fieldset {
@@ -30,6 +36,7 @@ fieldset {
     border-width: 5px;
     border-radius: 7px;
     border-color: rgb(0, 255, 0);
+    box-shadow: 0px 0px 20px black;
 }
 
 legend {
@@ -42,6 +49,11 @@ label {
     color: rgb(0, 255, 0);
 }
 
+input {
+    text-transform: capitalize;
+}
+
 iframe {
-    border-radius: 20px
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #ff0000;
 }
