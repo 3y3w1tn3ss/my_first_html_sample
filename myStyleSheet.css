@@ -1,14 +1,44 @@
 body {
     background-color: rgb(132, 124, 109);
     text-align: center;
-    list-style-position: inside;
     width: fit-content;
     margin: auto;
+    list-style-position: inside;
+}
+
+a:visited {
+    color: rgb(11, 228, 11);
+}
+
+a:hover {
+    text-shadow: 0px 0px 5px yellow;
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
+    width: 60%;
+    margin: auto;
+    border: 3px solid;
+    box-shadow: 0px 0px 5px #ff0000;
+    border-collapse: collapse;
+    background-color: rgb(117, 189, 189);
+}
+
+caption {
+    font: 120% 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px yellowgreen;
+}
+
+tr, th, td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+th {
+    background-color: aquamarine;
+}
+
+tr:nth-child(even) {
+    background-color: yellowgreen;
 }
 
 hr {
