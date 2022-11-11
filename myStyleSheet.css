@@ -6,6 +6,12 @@ body {
     list-style-position: inside;
 }
 
+img.click_to_top {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
 a:visited {
     color: rgb(11, 228, 11);
 }
