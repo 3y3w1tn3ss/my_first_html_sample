@@ -6,10 +6,16 @@ body {
     list-style-position: inside;
 }
 
-img.click_to_top {
+.click_to_top {
     position: fixed;
     bottom: 5px;
     right: 5px;
+}
+
+.click_to_bottom {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
 }
 
 a:visited {
