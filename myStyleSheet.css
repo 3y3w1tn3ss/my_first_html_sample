@@ -1,7 +1,7 @@
 body {
     background-color: rgb(132, 124, 109);
     text-align: center;
-    width: 50%;
+    width: fit-content;
     margin: auto;
     list-style-position: inside;
 }
