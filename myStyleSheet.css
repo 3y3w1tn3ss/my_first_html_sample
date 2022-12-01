@@ -1,23 +1,23 @@
 body {
     background-color: rgb(132, 124, 109);
     text-align: center;
-    width: fit-content;
+    max-width: 600px;
     margin: auto;
     list-style-position: inside;
 }
 
-
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 900px) {
     .wave_img {
+        width: 550px;
         transition-timing-function: cubic-bezier();
-        transition: width 1s;
+        transition: width 0.5s;
     }
 
     .wave_img:hover {
         transition-timing-function: cubic-bezier();
-        width: 500px;
+        width: 600px;
         box-shadow: 0px 0px 10px white;
-        transition: width 1s;
+        transition: width 0.5s;
     }
 }
 
@@ -25,7 +25,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 899px) {
     .click_to_top {
         display: block;
         position: fixed;
