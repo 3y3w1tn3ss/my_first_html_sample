@@ -6,28 +6,39 @@ body {
     list-style-position: inside;
 }
 
-.wave_img {
-    transition-timing-function: cubic-bezier();
-    transition: width 1s;
+
+@media screen and (min-width: 901px) {
+    .wave_img {
+        transition-timing-function: cubic-bezier();
+        transition: width 1s;
+    }
+
+    .wave_img:hover {
+        transition-timing-function: cubic-bezier();
+        width: 500px;
+        box-shadow: 0px 0px 10px white;
+        transition: width 1s;
+    }
 }
 
-.wave_img:hover {
-    transition-timing-function: cubic-bezier();
-    width: 500px;
-    box-shadow: 0px 0px 10px white;
-    transition: width 1s;
+.click_to_top, .click_to_bottom {
+    display: none;
 }
 
-.click_to_top {
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-}
-
-.click_to_bottom {
-    position: fixed;
-    bottom: 5px;
-    left: 5px;
+@media screen and (max-width: 900px) {
+    .click_to_top {
+        display: block;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+    }
+    
+    .click_to_bottom {
+        display: block;
+        position: fixed;
+        bottom: 5px;
+        left: 5px;
+    }
 }
 
 a:visited {
@@ -90,6 +101,13 @@ h2 {
     text-shadow: 1px 1px rgb(0, 255, 0);
 }
 
+.flex-header {
+    background: linear-gradient(to right, greenyellow, rgba(255, 0, 0, 1), greenyellow);
+    border-radius: 5px;
+    padding: 20px;
+    text-shadow: 1px 1px rgb(0, 255, 0);
+}
+
 fieldset {
     background-color: rgba(0, 0, 0, 0.422);
     border-width: 5px;
@@ -115,4 +133,18 @@ input {
 iframe {
     border-radius: 20px;
     box-shadow: 0px 0px 20px #ff0000;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+}
+
+.flex-container > div { /* div children of div with class "flex-container"*/
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
