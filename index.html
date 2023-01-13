@@ -1,165 +1,165 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8"> <!-- Page encoding -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibility stuff -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Auto adapt to devices display dimensions -->
-        <title>Sample</title> <!-- Tab title -->
-        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3235/3235129.png"> <!-- Tab icon -->
-        <link rel="stylesheet" href="myStyleSheet.css">
-        <script src="myScript.js"></script>
-    </head>
-    <body>
-        <a href="#top">
-            <img src="https://freesvg.org/img/kuba_arrow_button_set_3.png" width="65" title="up" class="click_to_top">
-        </a>
-        <a href="#bottom">
-            <img src="https://freesvg.org/img/kuba_arrow_button_set_4.png" width="65" title="down" class="click_to_bottom">
-        </a>
-        <h1>HTML sample</h1>
-        <p>
-            This is a paragraph and
-            <b>
-                <a href="http://hax.lol" target="_blank">THIS</a>
-            </b>
-            <br>
-            strange link will open in a new tab
-        </p>
-        <hr> <!-- Page ruler -->
-        <h2 id="wave">Wave</h2>
-        <a target="_blank" href="https://secoora.org/wp-content/uploads/2017/01/parts-of-a-wave.gif">
-            <img src="https://secoora.org/wp-content/uploads/2017/01/parts-of-a-wave.gif" alt="wave" title="Open in new tab" class="wave_img">
-        </a>
-        <hr>
-        <h2>Formatted text</h2>
-        <p>
-            <b>bold</b><br>
-            <strong>important</strong><br>
-            <i>italic</i><br>
-            <em>emphasized</em><br>
-            <mark>highlighted</mark><br>
-            <small>small</small><br>
-            <del>deleted</del><br>
-            <ins>underlined</ins><br>
-            Squared x: x<sup>2</sup><br>
-            Drink some H<sub>2</sub>O
-            <blockquote>block-quoted</blockquote>
-            <cite>The Scream</cite> by Edward Munch. Painted in 1893.<br>
-            <q>Hello</q> written opposite: <bdo dir="rtl">hello</bdo>
-        </p>
-        <hr>
-        <h2>Links</h2>
-        <p>
-            <a href="mailto:parathyrasdavid@gmail.com"">Send me an email</a>
-        </p>
-        <a href="https://facebook.com" target="_blank">
-            <button id="facebookButton">Open facebook</button>
-        </a>
-        <hr>
-        <h2>Table sample</h2>
-        <table>
-            <tr>
-                <caption colspan="3">
-                    Credentials
-                </caption>
-            </tr>
-            <tr>
-                <th>Name</th>
-                <th>Surname</th>
-                <th>Age</th>
-            </tr>
-            <tr>
-                <td>David</td>
-                <td>Mason</td>
-                <td>43</td>
-            </tr>
-            <tr>
-                <td>Stephen</td>
-                <td>Curry</td>
-                <td>35</td>
-            </tr>
-            <tr>
-                <td>Gary</td>
-                <td>Oldman</td>
-                <td>99</td>
-            </tr>
-            <tr>
-                <td>Tommy</td>
-                <td>Parker</td>
-                <td>53</td>
-            </tr>
-        </table>
-        <hr>
-        <h2>Unordered list</h2>
-        <ul style="list-style-type:square">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ul>
-        <h2>Roman letter ordered list</h2>
-        <ol type="i">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol>
-        <h2>Latin letter ordered list</h2>
-        <ol type="a">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol>
-        <hr>
-        <h2>Bike jump video</h2>
-        <iframe width="530" height="298" src="https://www.youtube.com/embed/yf11jjMicW0?autoplay=1&mute=1" name="iframe_a" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <hr>
-        <form autocomplete="on">
-            <fieldset>
-                <legend>Sign Up</legend>
-                <p>
-                    <label for="fname">First Name</label>
-                    <input type="text" name="fname" id="fname" placeholder="Type here..." pattern="[A-Z][a-z]*"> <!-- First letter capital, followed by lowercase letters or none -->
-                </p>
-                <p>
-                    <label for="lname">Last Name</label>
-                    <input type="text" name="lname" id="lname" placeholder="Type here..." pattern="[A-Z][a-z]*"> <!-- First letter capital, followed by lowercase letters or none -->
-                </p>
-                <select name="genders" id="genders">
-                    <option value="default" id="dropdown">-- Choose your gender --</option>
-                    <option value="man">Άντρας</option>
-                    <option value="woman">Γυναίκα</option>
-                    <option value="trans">Τραβέλι</option>
-                    <option value="faggot">Πουστάρα</option>
-                    <option value="lesbian">Λεσβία</option>
-                    <option value="by">Αμφιπρωτικοί</option>
-                </select>
-                <p>
-                    <input type="submit" value="Submit">
-                    <input type="reset">
-                </p>
-            </fieldset>
-        </form>
-        <hr>
-        <h2>Sound effects</h2>
-        <p>
-            <img src="images/face-vomiting.png" alt="face vomiting">
-            <audio controls>
-                <source src="sounds/burp.mp3" type="audio/mp3" id="burpsound">
-                Audio playback is not supported by your browser
-            </audio><br>
-            <img src="images/pile-of-poo.png" alt="pile of poo">
-            <audio controls>
-                <source src="sounds/fart.mp3" type="audio/mp3" id="fartsound">
-                Audio playback is not supported by your browser
-            </audio>
-        </p>
-        <h2 class="flex-header">Welcome to flex</h2>
-        <div class="flex-container">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-        </div>
-        <hr id="bottom"> <!-- Bottom ruler -->
-    </body>
+<head>
+    <meta charset="UTF-8"> <!-- Page encoding -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibility stuff -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Auto adapt to devices display dimensions -->
+    <title>Sample</title> <!-- Tab title -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3235/3235129.png"> <!-- Tab icon -->
+    <link rel="stylesheet" href="myStyleSheet.css">
+    <script src="myScript.js"></script>
+</head>
+<body>
+    <a href="#top">
+        <img src="https://freesvg.org/img/kuba_arrow_button_set_3.png" width="65" title="up" class="click_to_top">
+    </a>
+    <a href="#bottom">
+        <img src="https://freesvg.org/img/kuba_arrow_button_set_4.png" width="65" title="down" class="click_to_bottom">
+    </a>
+    <h1>HTML sample</h1>
+    <p>
+        This is a paragraph and
+        <b>
+            <a href="http://hax.lol" target="_blank">THIS</a>
+        </b>
+        <br>
+        strange link will open in a new tab
+    </p>
+    <hr> <!-- Page ruler -->
+    <h2 id="wave">Wave</h2>
+    <a target="_blank" href="https://secoora.org/wp-content/uploads/2017/01/parts-of-a-wave.gif">
+        <img src="https://secoora.org/wp-content/uploads/2017/01/parts-of-a-wave.gif" alt="wave" title="Open in new tab" class="wave_img">
+    </a>
+    <hr>
+    <h2>Formatted text</h2>
+    <p>
+        <b>bold</b><br>
+        <strong>important</strong><br>
+        <i>italic</i><br>
+        <em>emphasized</em><br>
+        <mark>highlighted</mark><br>
+        <small>small</small><br>
+        <del>deleted</del><br>
+        <ins>underlined</ins><br>
+        Squared x: x<sup>2</sup><br>
+        Drink some H<sub>2</sub>O
+        <blockquote>block-quoted</blockquote>
+        <cite>The Scream</cite> by Edward Munch. Painted in 1893.<br>
+        <q>Hello</q> written opposite: <bdo dir="rtl">hello</bdo>
+    </p>
+    <hr>
+    <h2>Links</h2>
+    <p>
+        <a href="mailto:parathyrasdavid@gmail.com"">Send me an email</a>
+    </p>
+    <a href="https://facebook.com" target="_blank">
+        <button id="facebookButton">Open facebook</button>
+    </a>
+    <hr>
+    <h2>Table sample</h2>
+    <table>
+        <tr>
+            <caption colspan="3">
+                Credentials
+            </caption>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>Mason</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Stephen</td>
+            <td>Curry</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Gary</td>
+            <td>Oldman</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>Tommy</td>
+            <td>Parker</td>
+            <td>53</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Unordered list</h2>
+    <ul style="list-style-type:square">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2>Roman letter ordered list</h2>
+    <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <h2>Latin letter ordered list</h2>
+    <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <hr>
+    <h2>Bike jump video</h2>
+    <iframe width="530" height="298" src="https://www.youtube.com/embed/yf11jjMicW0?autoplay=1&mute=1" name="iframe_a" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Sign Up</legend>
+            <p>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" placeholder="Type here..." pattern="[A-Z][a-z]*"> <!-- First letter capital, followed by lowercase letters or none -->
+            </p>
+            <p>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="Type here..." pattern="[A-Z][a-z]*"> <!-- First letter capital, followed by lowercase letters or none -->
+            </p>
+            <select name="genders" id="genders">
+                <option value="default" id="dropdown">-- Choose your gender --</option>
+                <option value="man">Άντρας</option>
+                <option value="woman">Γυναίκα</option>
+                <option value="trans">Τραβέλι</option>
+                <option value="faggot">Πουστάρα</option>
+                <option value="lesbian">Λεσβία</option>
+                <option value="by">Αμφιπρωτικοί</option>
+            </select>
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </p>
+        </fieldset>
+    </form>
+    <hr>
+    <h2>Sound effects</h2>
+    <p>
+        <img src="images/face-vomiting.png" alt="face vomiting">
+        <audio controls>
+            <source src="sounds/burp.mp3" type="audio/mp3" id="burpsound">
+            Audio playback is not supported by your browser
+        </audio><br>
+        <img src="images/pile-of-poo.png" alt="pile of poo">
+        <audio controls>
+            <source src="sounds/fart.mp3" type="audio/mp3" id="fartsound">
+            Audio playback is not supported by your browser
+        </audio>
+    </p>
+    <h2 class="flex-header">Welcome to flex</h2>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <hr id="bottom"> <!-- Bottom ruler -->
+</body>
 </html>
